@@ -1,0 +1,93 @@
+.home-logo {
+  margin-top: 56px;
+  overflow: hidden;
+}
+.home-logo img {
+  height: 38vh;
+  width: 100vw;
+  background-color: #a9ffd4;
+  background-size: contain;
+  background-position: 50% 30%;
+  object-fit: cover;
+}
+
+@media (min-width: 40rem) and (min-height: 40rem) {
+  .home-logo img {
+    height: 50vh;
+  }
+}
+#display-title {
+  font-size: 1.9rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+@media (min-width: 40rem) {
+  #display-title {
+    font-size: 3rem;
+  }
+}
+.display {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 1000ms linear;
+}
+
+.open-slide {
+  opacity: 100;
+}
+
+.close-slide {
+  opacity: 0;
+  transition: opacity 500ms linear;
+}
+
+.img-container {
+  width: 100%;
+  max-width: 40rem;
+}
+
+.image {
+  width: 100%;
+  vertical-align: top;
+}
+
+.display-info p {
+  font-weight: lighter;
+}
+
+@media (min-width: 40rem) {
+  .display {
+    margin: 3rem auto;
+    max-width: 1500px;
+  }
+
+  .img-container {
+    display: inline-block;
+    width: 66%;
+    vertical-align: middle;
+  }
+
+  .display-info {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+  }
+}
+
+.slide-container {
+  height: 50%;
+  width: 80%;
+  text-align: center;
+}
+
+.home-background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
